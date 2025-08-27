@@ -15,7 +15,7 @@ export default function Home() {
     {isNotClickOke? (
       <div className="font-sans flex flex-col justify-start items-center pt-20 max-h-[100vh] overflow-hidden p-2">
         <p>
-          Bé nguỵt sẽ khong dận anh nũa mò đùng khommmmm?
+          Bé nguỵt sẽ khong dận anh nũa mò đùng khommmmm?❤️
         </p>      
         <Image 
           src="/capoo-cat.webp" 
@@ -35,7 +35,7 @@ export default function Home() {
             }}
             onClick={() => {
               setClickOke(false);
-              liDoGian.create('Mơ điii');
+              liDoGian.create('Đúng rùiii');
             }}
           >
             Đúng rùiii
@@ -58,12 +58,12 @@ export default function Home() {
         </div>
       </div>
     ):(
-      <div className="flex flex-col justify-start items-center pt-20 p-2">
+      <div className="flex flex-col justify-start items-center py-20 p-2">
         <p>
-          Anh bic ngay moooooo❤️❤️
+          Anh bíc ngay mòoooooo❤️❤️
         </p>
         <p>
-          Iuuuu em qua chaiii❤️❤️❤️
+          Iuuuu bé nguỵt quá chàiiii❤️❤️❤️
         </p>
         <Image 
           src="/cat-bugcat.webp" 
